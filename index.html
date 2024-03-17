@@ -7,7 +7,7 @@
     <title>Vanilla App Template</title>
     
     <script type="module" crossorigin src="/group17_03/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/group17_03/assets/index-10c40100.css">
+    <link rel="stylesheet" href="/group17_03/assets/index-f86814ae.css">
   </head>
   <body>
     <header class="header">
@@ -25,6 +25,48 @@
 </header>
 
     <main>
+      <section>
+  <h2>images</h2>
+  <ul class="img-wrapper">
+    <li>
+      <h3>path ../img</h3>
+      <img src="../img/vite-logo.png" alt="" width="200" />
+    </li>
+    <li>
+      <h3>path ./img</h3>
+      <img src="/group17_03/assets/vite-logo-51249ca9.png" alt="" width="200" />
+    </li>
+    <li>
+      <h3>path /img</h3>
+      <img src="/group17_03/assets/vite-logo-51249ca9.png" alt="" width="200" />
+    </li>
+    <li>
+      <h3>path img</h3>
+      <img src="/group17_03/assets/vite-logo-51249ca9.png" alt="" width="200" />
+    </li>
+  </ul>
+
+  <ul class="img-wrapper">
+    <li>
+      <h3>path ../img</h3>
+      <div class="img-bg"></div>
+    </li>
+    <li>
+      <h3>path ./img</h3>
+      <div class="img-bg"></div>
+    </li>
+    <li>
+      <h3>path /img</h3>
+      <div class="img-bg"></div>
+    </li>
+    <li>
+      <h3>path img</h3>
+      <div class="img-bg"></div>
+    </li>
+  </ul>
+</section>
+
+
       <p>text section1</p>
 
       <p>text section2</p>
